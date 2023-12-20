@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>College_Schedule : </title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="todo_list.css">
+</head>
+<body>
+    <main>
+      <nav>
+        <div class="cal">
+          <input type="datetime-local" name="datetime" id="datetime" />
+        </div>
+      </nav>
+        <div class="timeline">
+            
+            <div class="container right">
+              <div class="content">
+                <h2>Chemistry Theory <span class="sub-code" >(20CH101T)</span></h2>
+                <span> G3 & G4 , Ranjan Pati (PATI) , D007 </span>
+                <section id="remark"></section>
+              </div>
+              <div class="content">
+                <h2>Engineering Graphics Lab CAD <span class="sub-code">(20ME101P)</span></h2>
+                <span> G3 , Ankur Chaurasia (ACH) , E111</span>
+                <section id="remark"></section>
+              </div>
+              <div class="content">
+                <h2>Element Of Mechanical Engineering Lab <span class="sub-code">(20ME102P)</span></h2>
+                <span>G4 , Rahul Dehakar (RAD) , F002 </span>
+                <section id="remark"></section>
+              </div>
+              <div class="content">
+                <h2>Engineering Graphics Lab <span class="sub-code">(20ME101P)</span></h2>
+                <span>G3 , Parth P Prajapati (PPP) , D006</span>
+                <section id="remark"></section>
+              </div>
+              <div class="content">
+                <h2>Basic Electronics Lab <span class="sub-code">(20IC101P)</span></h2>
+                <span>G4 , Hardic Vyas (HDV) , E112-113</span>
+                <section id="remark"></section>
+              </div>
+              <div class="content">
+                  <h2>Element Of Mechanical Engineering <span class="sub-code">(20ME101T)</span></h2>
+                  <span>G3 & G4 , Parth P Prajappati (PPP) , E204</span>
+                  <section id="remark"></section>
+              </div>
+              <div class="content">
+                <h2>Enviromental Studies <span class="sub-code">(20HS101T)</span></h2>
+                <span>G3 & G4 , Vinayak (VNK) , E203</span>
+                <section id="remark"></section>
+              </div>
+            </div>
+          </div>
+          <div id="myDIV" class="header">
+            <h2 style="margin:5px">Add Changed Lectures Here..</h2>
+            <input type="text" id="myInput" placeholder="Title...">
+            <span onclick="newElement()" class="addBtn">Add</span>
+          </div>
+          <ul id="myUL">
+            <!-- <li>Hit the gym</li>
+            <li class="checked">Pay bills</li>
+            <li>Meet George</li>
+            <li>Buy eggs</li>
+            <li>Read a book</li>
+            <li>Organize office</li> -->
+          </ul>
+    </main>
+
+    <script src="main.js"></script>
+    <script src="todo_list.js"></script>
+</body>
+</html>
